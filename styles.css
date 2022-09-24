@@ -1,0 +1,74 @@
+body{
+    font-family: sans-serif;
+    
+    color: white;
+  }
+  h1{
+    color: black;
+    text-align: center;
+  
+  }
+  .p{
+    color: rgb(0,0,0);
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .pHead{
+    color: rgb(0,0,0);
+    margin: 0;
+    font-size: 1.5em;
+    padding: 5px;
+  }
+  form{
+    margin: 10px auto 0 auto;
+    max-width: 80%;
+  }
+  #name, #email, #number{
+    display: block;
+    margin: 10px auto;
+    min-width: 120px;
+    max-width: 80%;
+    width: 50%;
+    margin: 5px auto;
+  }
+  form{
+    border: 9px solid rgb(60, 60, 250);
+    border-radius: 15px;
+    background: rgb(50, 150, 250);
+  }
+  fieldset{
+    border: none;
+  }
+  .pergunta{
+    border-bottom: 1px solid rgb(60, 60, 250);
+  }
+  #name, #email, #number{
+    margin-bottom: 15px; 
+    padding: 5px;
+    display:block;
+    background: rgb(50, 150, 250);
+    border: none;
+    color: black;
+  }
+  .dados{
+    display: block;
+    margin: 0;
+    background: rgb(60, 60, 255);
+  }
+  #label{
+    display: block;
+    text-align: center;
+  }
+  footer{
+    margin-top: 30px;
+    text-align: center;
+    height: 2em;
+    border-radius: 15px;
+  }
+  footer a{
+    font-size: 2em;
+    background: rgb(60, 60, 255);
+    color: rgb(50, 150, 250);
+    text-decoration: none;
+  }
+  

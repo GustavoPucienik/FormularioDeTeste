@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Primeiro projeto p/ portifólio</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Formulario de perguntas</h1>
+    <p  class="p" id="description">Perguntas de importancia duvidosa.</p>
+    
+        <form id="survey-form">
+      <fieldset class="dados">
+      <label id="label"> <p class="pHead">Digite seu nome:</p> <input id="name" type="text" placeholder="Digite o seu nome" required></label>
+      <label id="label"> <p class="pHead">Digite o seu email:</p> <input id="email" type="email" placeholder="Digite o seu email" required></label>
+      <label id="label"> <p class="pHead">Digite sua idade:</p><input type="number" id="number" min="0" max="99"  placeholder="Idade"></label>
+</fieldset>
+
+<fieldset class="pergunta">
+      <p class="p">Qual sua cor preferida?</p>
+    <select id="dropdown">
+      <option disabled selected value name="choice-disabled" value="Escolha">Cores</option>
+      <option name="cor" value="Preto">Preto</option>
+      <option name="cor" value="branco">Branco</option>
+      <option name="cor" value="Azul">Azul</option>
+      <option name="cor" value="Vermelho">Vermelho</option>
+      <option name="cor" value="Verde">Verde</option>
+      <option name="cor" value="Amarelo">Amarelo</option>
+      <option name="cor" value="Rosa">Rosa</option>
+      <option name="cor" value="Laranja">Laranja</option>
+      <option name="cor" value="Roxo">Roxo</option>
+    </select>
+    </fieldset>
+    
+    <fieldset class="pergunta">
+    <p class="p">Qual sua estação preferida?</p>
+    <p><input type="radio" name="qual" value="estação"> Verão </p>
+    <p><input type="radio" name="qual" value="estação"> Inverno</p>
+    <p><input type="radio" name="qual" value="estação"> Outono </p>
+    <p><input type="radio" name="qual" value="estação"> Primavera</p>
+    </fieldset>
+
+    <fieldset class="pergunta">
+    <div>
+    <p class="p">Marque seus animais de estimação</p>
+      <p><input class="box" type="checkbox" value="cachooorro-auauauau" > Cachorro</p>
+      <p><input class="box" type="checkbox" value="AsasBatendo-MarchaDeDecolagem" >Gato</p>
+      <p><input class="box" type="checkbox" value="Coieo" > Coelho</p>
+      <p><input class="box" type="checkbox" value="Ninja" > Tartaruga</p>
+      <p><input class="box" type="checkbox" value="passaro" > Pássaro</p>
+      <p><input class="box" type="checkbox" value="TaCarente" > Hamster</p>
+
+    </fieldset>
+    <fieldset>
+      <p class="p">Na criação desse formulario foi usado</p>
+      <input class="box" type="checkbox" value="html" checked disabled> Html5
+      <input class="box" type="checkbox" value="css" checked disabled> Css3
+    </fieldset>
+
+    <fieldset>
+      <p>Aceito criticas.</p> <!-- Não vai chegar na pagina, mas pode me mandar por LinkedIn, Whatsapp, Email.  -->
+    <textarea></textarea>
+    <button id="submit">Enviar
+    </fieldset>
+  </form>
+
+  <footer>
+    <a href="https://www.linkedin.com/in/gustavo-gomes-pucienik-05a3111b3/" alt="LinkedIn">LinkedIn</a>
+  </footer>
+  </body>
+</html>
