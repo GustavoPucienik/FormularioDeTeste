@@ -1,7 +1,6 @@
 body{
     font-family: sans-serif;
-    
-    color: white;
+    background-color: aliceblue;
   }
   h1{
     color: black;
@@ -70,5 +69,6 @@ body{
     background: rgb(60, 60, 255);
     color: rgb(50, 150, 250);
     text-decoration: none;
+    padding: 5px;
   }
   
